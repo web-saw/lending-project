@@ -1,0 +1,356 @@
+@media (max-width: 1200px) {
+   .contacts {
+   }
+   .contacts::before {
+      width: 443px;
+      height: 272px;
+      width: 50%;
+   }
+   .contacts::after {
+      /*width: 50%;
+      width: 443px;
+      height: 272px;*/
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
+   .clients__row {
+      display: flex;
+      flex-wrap: wrap;
+      img {
+         margin: 15px;
+      }
+      img:last-child {
+         margin-right: 37.5px;
+      }
+   }
+}
+@media (max-width: 1055px) {
+   .header__img {
+      max-width: 50%;
+   }
+   .header__form {
+      margin-right: 15px;
+   }
+   .header__title {
+      font-size: 45px;
+   }
+   .objects__text {
+      padding-right: 33px;
+      padding-left: 90px;
+   }
+   .benefits {
+      padding-bottom: 0px;
+   }
+   .benefits__row {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .benefit-item {
+      padding-top: 50px;
+   }
+   .cta__text {
+      flex-shrink: 0;
+   }
+}
+@media (max-width: 925px) {
+   .title {
+      font-size: 30px;
+   }
+   .cta__title {
+      padding-top: 50px;
+      padding-bottom: 10px;
+   }
+   .cta__buttons-row {
+      padding-bottom: 50px;
+   }
+
+   .clients {
+      padding-top: 50px;
+      padding-bottom: 0px;
+   }
+
+   .serve {
+      padding-bottom: 60px;
+   }
+
+   .footer__nav {
+      column-gap: 45px;
+   }
+}
+
+@media (max-width: 820px) {
+   .contacts {
+      margin-bottom: 45px;
+   }
+   .navigation-list {
+      display: none;
+   }
+   .nav {
+      &__button {
+         display: block;
+      }
+      &__button-icon {
+         background-color: $black-color;
+         &::before {
+            background-color: $black-color;
+         }
+         &::after {
+            background-color: $black-color;
+         }
+      }
+
+      &__mobile-nav--active {
+         display: flex;
+      }
+   }
+   .benefits__heading {
+      padding-bottom: 0px;
+   }
+   .benefit-item__title {
+      font-size: 20px;
+   }
+   .testimonials {
+      padding-bottom: 20px;
+   }
+   .cta__title {
+      padding-top: 50px;
+      padding-bottom: 10px;
+   }
+   .cta__buttons-row {
+      padding-bottom: 50px;
+   }
+   .footer {
+      padding-top: 0px;
+      padding-bottom: 40px;
+   }
+   .footer__row {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .footer__nav {
+      display: flex;
+      justify-content: space-around;
+      order: -1;
+      margin-bottom: 20px;
+   }
+   .footer__logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+   }
+   .footer__info {
+      max-width: 100%;
+   }
+}
+
+@media (max-width: 685px) {
+   .title {
+      font-size: 24px;
+   }
+   .header__row {
+      flex-wrap: wrap;
+   }
+   .header__title {
+      font-size: 26px;
+      display: flex;
+      margin-right: 0px;
+   }
+   .header__text {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+
+      margin: 0 auto;
+   }
+
+   .header__img {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%;
+      margin-bottom: 35px;
+   }
+   .cta {
+      padding-top: 30px;
+      padding-bottom: 60px;
+   }
+   .contacts::after {
+      display: none;
+   }
+   .objects__row {
+      position: relative;
+      justify-content: center;
+   }
+   .objects__title {
+      text-align: center;
+   }
+   .objects__img {
+      position: absolute;
+      left: -1500px;
+      top: -1500px;
+      opacity: 1;
+   }
+   .objects__text {
+      display: flex;
+      flex-shrink: 1;
+      flex-direction: column;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      text-align: center;
+   }
+   .cta__block {
+      position: relative;
+      display: flex;
+
+      width: 100%;
+      max-width: 685px;
+      padding-left: 0;
+   }
+   .cta__img {
+      position: absolute;
+      left: -150px;
+      top: -150px;
+      opacity: 0;
+   }
+   .testimonials__subtitle {
+      padding-top: 20px;
+   }
+   .testimonials__heading {
+      margin-bottom: 30px;
+   }
+   .testimonials__row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &::after {
+         opacity: 0;
+      }
+   }
+   .serve__row {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .card-customer {
+      margin-top: 50px;
+   }
+   .cta__text {
+      text-align: center;
+      padding: 20px;
+      margin: 0;
+      width: 660px;
+      display: flex;
+      flex-shrink: 1;
+   }
+
+   .cta__buttons-row {
+      display: flex;
+      justify-content: center;
+   }
+   .testimonials__heading {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+   }
+   .clients__row {
+      img {
+         width: 150px;
+      }
+      img:nth-child(3) {
+         margin-left: 35px;
+      }
+      img:last-child {
+         margin-left: 12px;
+      }
+   }
+   .img-card__info {
+      opacity: 0;
+      width: 250px;
+   }
+}
+@media (max-width: 525px) {
+   .header__img {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%;
+   }
+   .clients__row {
+      display: flex;
+      flex-direction: column;
+      img:nth-child(3) {
+         margin-left: 15px;
+      }
+      img:nth-child(2) {
+         margin-left: 20px;
+      }
+      img:last-child {
+         margin-left: 30px;
+      }
+   }
+   .serve__heading {
+      margin-bottom: 15px;
+   }
+   .footer__nav {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      column-gap: 25px;
+      width: 1500px;
+   }
+}
+@media (max-width: 475px) {
+   .cta__buttons-row {
+      display: flex;
+      flex-direction: column;
+   }
+   .button--play {
+      margin-top: 15px;
+   }
+   .header__form {
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+   }
+   .header__img {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%;
+   }
+   .form__label {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+   }
+   .form__input {
+      max-width: 475px;
+      margin-bottom: 50px;
+      padding-top: 16px;
+      margin-right: 0px;
+      margin-left: -20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .form__button {
+      position: absolute;
+      left: 0;
+
+      top: 80px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .footer__nav-block {
+      margin-left: 0px;
+      margin-right: 0;
+   }
+   .card-customer {
+      width: 1320px;
+
+      padding-left: 0;
+      padding-right: 0;
+   }
+}

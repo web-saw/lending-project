@@ -6,6 +6,7 @@ body {
    font-size: 16px;
    color: $black-color;
    line-height: 1.6875;
+   overflow-x: hidden;
 }
 
 .container {
@@ -22,4 +23,8 @@ body {
    &--no-padding {
       padding: 0;
    }
+}
+
+.none {
+   display: none;
 }
