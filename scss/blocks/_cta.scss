@@ -1,0 +1,41 @@
+.cta {
+   padding-top: 70px;
+   padding-bottom: 70px;
+   &__block {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      background-color: #58bebf;
+      color: #fff;
+      border-radius: 20px;
+   }
+   &__img {
+      margin-top: 60px;
+      padding-top: 25px;
+      padding-right: 25px;
+      background-color: white;
+      border-radius: 0 20px 0 0;
+   }
+   &__text {
+      width: 555px;
+      box-sizing: border-box;
+      padding-left: 95px;
+      padding-right: 40px;
+      letter-spacing: 1.15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: url("./../../img/icons/oval-bottom-left.svg") bottom left -186px no-repeat,
+         url("./../../img/icons/oval-top-right.svg") top right no-repeat;
+   }
+   &__title {
+      margin-bottom: 15px;
+   }
+
+   &__buttons-row {
+      margin-top: 30px;
+      display: flex;
+      column-gap: 20px;
+      letter-spacing: 0.5px;
+   }
+}
