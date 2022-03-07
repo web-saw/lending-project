@@ -1,6 +1,4 @@
 @media (max-width: 1200px) {
-   .contacts {
-   }
    .contacts::before {
       width: 443px;
       height: 272px;
@@ -161,7 +159,6 @@
       order: 2;
       display: flex;
       flex-direction: column;
-
       margin: 0 auto;
    }
 
@@ -203,7 +200,6 @@
    .cta__block {
       position: relative;
       display: flex;
-
       width: 100%;
       max-width: 685px;
       padding-left: 0;
@@ -336,7 +332,6 @@
    .form__button {
       position: absolute;
       left: 0;
-
       top: 80px;
       width: 100%;
       display: flex;
@@ -349,7 +344,6 @@
    }
    .card-customer {
       width: 1320px;
-
       padding-left: 0;
       padding-right: 0;
    }
