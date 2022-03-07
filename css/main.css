@@ -75,6 +75,10 @@ body {
   padding: 0;
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
 .none {
   display: none;
 }
