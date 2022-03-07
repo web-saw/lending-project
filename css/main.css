@@ -1166,6 +1166,9 @@ body {
 }
 
 @media (max-width: 685px) {
+  .contacts {
+    margin-top: -80px;
+  }
   .title {
     font-size: 24px;
   }
