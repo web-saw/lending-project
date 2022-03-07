@@ -7,6 +7,7 @@ body {
    color: $black-color;
    line-height: 1.6875;
    overflow-x: hidden;
+   display: block;
 }
 
 .container {
@@ -25,7 +26,7 @@ body {
    }
 }
 .no-scroll {
-   overflow-y: hidden;
+   overflow: hidden;
 }
 .none {
    display: none;
