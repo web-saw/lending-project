@@ -7,7 +7,8 @@
       align-items: center;
    }
    &__button {
-      position: relative;
+      left: 642px;
+      position: fixed;
       z-index: 101;
       display: none;
       height: 25px;
@@ -79,6 +80,7 @@
    }
    &__mobile-nav {
       // display: flex;
+      transition: all 0.8s ease-in;
       display: none;
       flex-direction: column;
       justify-content: space-between;

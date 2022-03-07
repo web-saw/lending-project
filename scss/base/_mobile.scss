@@ -84,8 +84,10 @@
       display: none;
    }
    .nav {
+      transition: all 0.8s ease-in;
       &__button {
          display: block;
+         transition: all 0.3s ease-in;
       }
       &__button-icon {
          background-color: $black-color;
@@ -98,6 +100,7 @@
       }
 
       &__mobile-nav--active {
+         transition: all 0.3s ease-in;
          display: flex;
       }
    }

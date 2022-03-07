@@ -102,7 +102,8 @@ body {
 }
 
 .nav__button {
-  position: relative;
+  left: 642px;
+  position: fixed;
   z-index: 101;
   display: none;
   height: 25px;
@@ -186,6 +187,8 @@ body {
 }
 
 .nav__mobile-nav {
+  -webkit-transition: all 0.8s ease-in;
+  transition: all 0.8s ease-in;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1094,8 +1097,14 @@ body {
   .navigation-list {
     display: none;
   }
+  .nav {
+    -webkit-transition: all 0.8s ease-in;
+    transition: all 0.8s ease-in;
+  }
   .nav__button {
     display: block;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
   }
   .nav__button-icon {
     background-color: #323232;
@@ -1107,6 +1116,8 @@ body {
     background-color: #323232;
   }
   .nav__mobile-nav--active {
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
