@@ -84,7 +84,7 @@
       display: none;
    }
    .nav {
-      transition: all 0.8s ease-in;
+      // transition: all 0.8s ease-in;
       &__button {
          display: block;
          transition: all 0.3s ease-in;
@@ -100,7 +100,8 @@
       }
 
       &__mobile-nav--active {
-         transition: all 0.3s ease-in;
+         transform: translateX(0%);
+         transition: transform 0.3s;
          display: flex;
       }
    }

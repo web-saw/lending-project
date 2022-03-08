@@ -79,9 +79,10 @@
       }
    }
    &__mobile-nav {
-      // display: flex;
-      transition: all 0.8s ease-in;
-      display: none;
+      // display: none;
+      transform: translateX(150%);
+      right: 0;
+      transition: transform 0.3s;
       flex-direction: column;
       justify-content: space-between;
       padding: 35px 100px 50px 30px;
@@ -91,7 +92,7 @@
       background-color: rgba(11, 29, 38, 0.8);
       position: fixed;
       top: 0;
-      right: 0;
+
       color: #fff;
    }
 
